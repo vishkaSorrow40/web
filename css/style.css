@@ -92,7 +92,7 @@ body{
     color: var(--primary-color1)
 }
 
-.section2dev
+.section2devfooter
 {
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
@@ -158,7 +158,73 @@ color: var(--primary-color1);
 
 }
 
+.section4
+{
+
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 0.857;
+    color: var(--primary-color1)
+
+}
+
+.insection4
+{
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.section5
+{
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 1.143;
+}
+
+.inform
+{
+    font-family: 'Questrial', sans-serif ;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
 
 
-   
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.buttomsend
+{
+    font-family:'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 1.154;
+    background-color: var(--primary-color);
+    color: var(--primary-color1)
+}
+.infooter
+{
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 1.364;
+
+    color: var(--primary-color1)
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
