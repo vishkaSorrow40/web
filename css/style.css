@@ -66,6 +66,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    border-width: 0rem;
 }
 
 .underaccept {
@@ -166,7 +167,7 @@ body {
 .inform {
     font-size: 1.8rem;
     line-height: 1.67;
-
+    text-align: center;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -175,6 +176,12 @@ body {
     line-height: 1.154;
     background-color: var(--primary-color);
     color: var(--primary-color1);
+    border-radius: 9rem;
+    text-align: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
 }
 
 .infooter {
@@ -200,6 +207,5 @@ a{
 article{
     text-align: center;
 }
-
 
 
