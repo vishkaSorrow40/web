@@ -5,25 +5,45 @@
     --primary-color2: #678ff2;
     font-family: "Jost", sans-serif;
     font-weight: 400;
+    margin-left: auto;
 }
 
 body {
-    margin: 0;
+    margin-left: auto;
     background: var(--primary-color2);
 }
+
 
 .cloud {
     font-size: 2.3rem;
     line-height: 1.3;
     color: var(--primary-color1);
     text-align: right;
+    margin-left:2.8rem;
+}
+.hr1{
+    height: 1px;
+    background:var(--primary-color1);
+    margin:0;
+    border:0;
 }
 .menub{
     display: block;
     margin-left: auto;
+    margin-right:2.8rem;
+    background: none;
+    border-width: 0;
+    display: block;
+    margin-right: 1rem;
+    padding:0;
+
+
+
+
 }
 
 .section1 {
+    margin-left:2.8rem;
     font-weight: 700;
     font-size: 4.5rem;
     line-height: 0.88;
@@ -31,6 +51,8 @@ body {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: var(--primary-color);
     text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .buttonstart {
@@ -40,13 +62,27 @@ body {
     background: var(--primary-color);
     color: var(--primary-color1);
     text-align: center;
-
+    
+    margin-left: 2.8rem;
+    padding:.7em;
+    
 }
 
 .scrolldown {
     font-size: 1.6rem;
     line-height: 1.88;
     color: var(--primary-color1);
+    writing-mode: vertical-rl;
+    margin-left:0;
+}
+.hrofscroll{
+    writing-mode: vertical-rl;
+    color: var(--primary-color1);
+    width: .1rem;
+    height: 7.5rem;
+    margin-left: 1.3rem;
+    border: 0;
+    background-color: var(--primary-color1);
 }
 
 .cookies {
@@ -54,6 +90,10 @@ body {
     line-height: 1.4;
     color: var(--primary-color);
     text-align: center;
+    margin-left: 11.8rem;
+}
+.doveimg{
+
 }
 
 .buttonaccept {
@@ -74,6 +114,7 @@ body {
     line-height: 0.75;
     color: var(--primary-color1); 
     text-align: center;
+
 }
 
 .section2devfooter {
@@ -84,16 +125,27 @@ body {
     text-align: left;
     color: var(--primary-color1);
 }
+
+.section2Dev{
+    margin-left:6.38rem;
+    font-size: 1.4rem;
+    line-height: 2.14;
+    text-align: left;
+    color: var(--primary-color1);
+    
+
+}
 .section2h3R {
-    margin: 0;
+    margin-right:2.8rem;
 
     font-size: 1.4rem;
     line-height: 2.14;
     text-align: right;
-    color: var(--primary-color1);
+    color: var(--primary-color);
 }
 
 .section2h3 {
+    margin-left:2.8rem;
     font-size: 1.4rem;
     line-height: 1.285;
     color: var(--primary-color);
@@ -132,6 +184,7 @@ body {
     line-height: 0.4;
     color: var(--primary-color1);
 }
+
 
 .insectoin3 {
     font-size: 1.8rem;
@@ -173,17 +226,16 @@ body {
 
 .buttomsend {
     font-size: 2.6rem;
-    line-height: 1.154;
+    line-height: 4.7rem;
     background-color: var(--primary-color);
     color: var(--primary-color1);
     border-radius: 9rem;
     text-align: center;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width:100%;
-    padding-left: auto;
-    padding-right: auto;
+    margin-left: 2.8rem;
+    margin-right: 2.8rem;
+    min-width:32rem;
+    padding-left: 0;
+    padding-right: 0;
     border: 0;
 }
 
@@ -191,6 +243,7 @@ body {
     text-decoration: none;
     font-size: 2.2rem;
     line-height: 1.364;
+    margin:0;
 
     color: var(--primary-color1);
 }
@@ -199,10 +252,32 @@ body {
     background: rgba(255, 255, 255, 0.15);
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(20px);
+    margin:0;
 }
+
+.s1{
+    margin-right: auto;
+    padding-bottom: 140px;
+
+}
+.s2{
+    margin-right: auto;
+    padding-bottom: 115px ;
+}
+.s3{
+    padding-bottom: 107px ;
+}
+.s4{
+    padding-bottom: 172px ;
+}
+.s5{
+    padding-bottom: 154px ;
+}
+
 ul{
     margin:0;
     list-style-type: none;
+    padding:0;
 }
 a{
     text-decoration: none;
@@ -211,4 +286,58 @@ article{
     text-align: center;
 }
 
+header{
+    padding-bottom: 134px;
+    width: 100%;
+}
+h1{
+    margin:0;
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.inputf{
+    border:0;
+    border-width: 0;
+    border-radius: 9rem;
+    padding: 0;
+    text-align: left, 3.3rem;  
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-left: 2.8rem;
+    margin-right: 2.8rem;
+    padding-left: 1.4rem;
+    line-height: 4.7rem;
+    min-width:31.65rem;
+}
 
+.svg1{
+
+    left: 51.47%;
+    right: 41.87%;
+}
+
+.svg2{
+
+    left: 69.6%;
+    right: 23.73%;
+    }
+
+.svg3{
+
+    left: 76.56%;
+    right: 17.58%;
+}
+
+.img1{
+    margin:0;
+    background: none;
+    display: block;
+    border-width: 0;
+}
+
+
+
+label{
+    margin-left: 0;
+}
