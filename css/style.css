@@ -27,6 +27,15 @@ body {
     margin:0;
     border:0;
 }
+.hr2{
+    display: block;
+    text-align: center;
+    padding-bottom: 2px;
+    background:var(--primary-color1);
+    width:30.9rem;
+    border:0;
+
+}
 .menub{
     display: block;
     margin-left: auto;
@@ -92,9 +101,7 @@ body {
     text-align: center;
     margin-left: 11.8rem;
 }
-.doveimg{
 
-}
 
 .buttonaccept {
     font-size: 3rem;
@@ -116,10 +123,19 @@ body {
     text-align: center;
 
 }
+.sect2Div{
+display: block;
+text-align: center;
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(20px);
+border-radius: 2rem;
+width: 14.044rem;
+
+}
 
 .section2devfooter {
     margin: 0;
-
+    
     font-size: 1.4rem;
     line-height: 2.14;
     text-align: left;
@@ -132,7 +148,7 @@ body {
     line-height: 2.14;
     text-align: left;
     color: var(--primary-color1);
-    
+  
 
 }
 .section2h3R {
@@ -173,16 +189,21 @@ body {
 }
 
 .section3h2 {
+
     font-size: 3.5rem;
     text-align: left;
     line-height: 0.4;
     color: var(--primary-color1);
+    margin-left: 2.8rem;
+
 }
 .section3h2R {
     font-size: 3.5rem;
     text-align: right;
     line-height: 0.4;
     color: var(--primary-color1);
+    margin-right: 2.8rem ;
+
 }
 
 
@@ -191,12 +212,14 @@ body {
     line-height: 1.11;
     color: var(--primary-color1);
     text-align: left;
+    margin-left: 2.8rem;
 }
 .insectoin3R {
     font-size: 1.8rem;
     line-height: 1.11;
     color: var(--primary-color1);
     text-align: right;
+    margin-right: 2.8rem;
 }
 .section4 {
     font-size: 3.5rem;
@@ -206,10 +229,31 @@ body {
 }
 
 .insection4 {
+    display:block;
+    box-sizing: border-box;
+    padding-top: 5px;
     font-size: 2.5rem;
     line-height: 1;
     text-align: center;
+    margin-top : 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 1.5rem;   
+    width: 31.873rem;
+    height: 28.299rem;   
 }
+.insection4pt2{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .section5 {
     font-size: 3.5rem;
@@ -219,7 +263,7 @@ body {
 
 .inform {
     font-size: 1.8rem;
-    line-height: 1.67;
+    /*line-height: 1.67;*/
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
 }
@@ -283,6 +327,7 @@ a{
     text-decoration: none;
 }
 article{
+    background-color: ;
     text-align: center;
 }
 
@@ -298,7 +343,7 @@ h2{
     margin-bottom: 0;
 }
 .inputf{
-    border:0;
+
     border-width: 0;
     border-radius: 9rem;
     padding: 0;
@@ -309,22 +354,23 @@ h2{
     padding-left: 1.4rem;
     line-height: 4.7rem;
     min-width:31.65rem;
+    box-sizing: border-box;
 }
 
 .svg1{
-
+    box-sizing: border-box;
     left: 51.47%;
     right: 41.87%;
 }
 
 .svg2{
-
+    box-sizing: border-box;
     left: 69.6%;
     right: 23.73%;
     }
 
 .svg3{
-
+    box-sizing: border-box;
     left: 76.56%;
     right: 17.58%;
 }
@@ -341,3 +387,10 @@ h2{
 label{
     margin-left: 0;
 }
+
+.img4s{
+    display: block;
+    border-radius:0 0 1.5rem 1.5rem;
+}
+
+
