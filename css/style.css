@@ -30,7 +30,7 @@ body {
 .hr2{
     display: block;
     text-align: center;
-    padding-bottom: 2px;
+    padding-bottom: 1px;
     background:var(--primary-color1);
     width:30.9rem;
     border:0;
@@ -45,9 +45,14 @@ body {
     display: block;
     margin-right: 1rem;
     padding:0;
-
-
-
+}
+.cont2{
+    display:flex;
+    flex-wrap: nowrap;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
 }
 
@@ -61,6 +66,7 @@ body {
     color: var(--primary-color);
     text-align: left;
     margin-top: 0;
+    padding-bottom: 15rem;
     margin-bottom: 0;
 }
 
@@ -73,7 +79,7 @@ body {
     text-align: center;
     
     margin-left: 2.8rem;
-    padding:.7em;
+    padding:.6em;
     
 }
 
@@ -83,8 +89,10 @@ body {
     color: var(--primary-color1);
     writing-mode: vertical-rl;
     margin-left:0;
+    margin-right: 0;
 }
 .hrofscroll{
+    display: block;
     writing-mode: vertical-rl;
     color: var(--primary-color1);
     width: .1rem;
@@ -92,21 +100,31 @@ body {
     margin-left: 1.3rem;
     border: 0;
     background-color: var(--primary-color1);
+    margin-top: 1.5rem;
+}
+.verticalDiv{
+    flex-wrap: wrap;
+}
+.dove{
+    position: absolute;
+    bottom: 0;
+    left: -15px;
 }
 
 .cookies {
     font-size: 1rem;
     line-height: 1.4;
     color: var(--primary-color);
-    text-align: center;
-    margin-left: 11.8rem;
+    text-align: left;
+    margin-left: 9.8rem;
+    padding:1rem;
+    margin-bottom: 0;
 }
 
 
 .buttonaccept {
     font-size: 3rem;
     line-height: 0.466;
-
     color: var(--primary-color);
     background: none;
     display: block;
@@ -114,9 +132,17 @@ body {
     margin-left: auto;
     text-align: center;
     border-width: 0;
+    padding:2rem;
+}
+.scrollarticle{
+    display:flex;
+    flex-wrap: nowrap;
+    padding-top: 5rem;
+    
 }
 
 .underaccept {
+    
     font-size: 4rem;
     line-height: 0.75;
     color: var(--primary-color1); 
@@ -130,64 +156,72 @@ background: rgba(255, 255, 255, 0.1);
 backdrop-filter: blur(20px);
 border-radius: 2rem;
 width: 14.044rem;
+height: 15.25rem;
+
 
 }
 
 .section2devfooter {
     margin: 0;
-    
     font-size: 1.4rem;
     line-height: 2.14;
     text-align: left;
     color: var(--primary-color1);
-}
 
+}
+/* вторая секция*/
 .section2Dev{
-    margin-left:6.38rem;
-    font-size: 1.4rem;
-    line-height: 2.14;
-    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.6;
     color: var(--primary-color1);
-  
+    margin: 0;
 
 }
 .section2h3R {
-    margin-right:2.8rem;
-
-    font-size: 1.4rem;
-    line-height: 2.14;
-    text-align: right;
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
     color: var(--primary-color);
 }
 
 .section2h3 {
-    margin-left:2.8rem;
-    font-size: 1.4rem;
-    line-height: 1.285;
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
     color: var(--primary-color);
+}
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2.8rem;
+    gap:2.8rem;
+    text-align: center;
 }
 
 .indevelop {
+    margin: 0;
     font-size: 1.1rem;
     line-height: 1.636;
-    text-align: left;
     color: var(--primary-color1);
+    padding:1rem;
 }
 
 .insection2 {
+    margin: 0;
     font-size: 1.2rem;
     line-height: 1.5;
-    text-align: left;
     color: var(--primary-color);
+    padding:1rem;
 }
 
 .insection2R {
+    margin: 0;
     font-size: 1.2rem;
-    line-height: 1.5;
-    text-align: right;
+    line-height: 1.5;;
     color: var(--primary-color);
+    padding:1rem;
 }
-
+/* уже третья секция*/
 .section3h2 {
 
     font-size: 3.5rem;
@@ -221,6 +255,7 @@ width: 14.044rem;
     text-align: right;
     margin-right: 2.8rem;
 }
+/* четвертая секция*/
 .section4 {
     font-size: 3.5rem;
     line-height: 0.857;
@@ -253,8 +288,19 @@ width: 14.044rem;
     margin-left: auto;
     margin-right: auto;
 }
+.div5s{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 2.8rem;
+    margin-right: 2.8rem;
+    margin-left: 2.8rem;
+    margin-right: 2.8rem;
+    justify-content: center;
 
+}
 
+/* пятая секция */
 .section5 {
     font-size: 3.5rem;
     line-height: 1.143;
@@ -263,7 +309,6 @@ width: 14.044rem;
 
 .inform {
     font-size: 1.8rem;
-    /*line-height: 1.67;*/
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
 }
@@ -287,16 +332,27 @@ width: 14.044rem;
     text-decoration: none;
     font-size: 2.2rem;
     line-height: 1.364;
-    margin:0;
-
     color: var(--primary-color1);
 }
+.infooter1 {
+    text-decoration: none;
+    font-size: 2.2rem;
+    line-height: 1.364;
+    color: var(--primary-color1);
+    margin-left: 5rem;
+}
+
 
 .colorfooter {
     background: rgba(255, 255, 255, 0.15);
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(20px);
     margin:0;
+    padding: 2.8rem;
+}
+.divfooter{
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .s1{
@@ -327,8 +383,15 @@ a{
     text-decoration: none;
 }
 article{
-    background-color: ;
     text-align: center;
+    position: relative;
+    width: 31.6rem;
+    margin-left: 2.8rem;
+    margin-top: 10rem;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
 }
 
 header{
@@ -336,11 +399,19 @@ header{
     width: 100%;
 }
 h1{
+    display: none;
     margin:0;
 }
 h2{
     margin-top: 0;
     margin-bottom: 0;
+}
+blockquote{
+
+    margin-left:4rem;
+    font-size: 1.4rem;
+
+    color: var(--primary-color1);
 }
 .inputf{
 
@@ -355,33 +426,44 @@ h2{
     line-height: 4.7rem;
     min-width:31.65rem;
     box-sizing: border-box;
+    resize: none;
+}
+
+.divinta{
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 2rem;
 }
 
 .svg1{
-    box-sizing: border-box;
-    left: 51.47%;
-    right: 41.87%;
+    margin-right: 1.4rem;
+    margin-left: 15rem;
 }
 
 .svg2{
-    box-sizing: border-box;
-    left: 69.6%;
-    right: 23.73%;
-    }
-
-.svg3{
-    box-sizing: border-box;
-    left: 76.56%;
-    right: 17.58%;
+    margin-right: 1.4rem;
+    margin-left: 5rem;
 }
 
+.svg3{
+    margin-right: 1.4rem;
+    margin-left: auto;
+}
 .img1{
     margin:0;
     background: none;
     display: block;
     border-width: 0;
+    margin-right: auto;
 }
-
+.img2{
+    margin:0;
+    background: none;
+    display: block;
+    border-width: 0;
+    margin-left: auto;
+}
 
 
 label{
@@ -392,5 +474,20 @@ label{
     display: block;
     border-radius:0 0 1.5rem 1.5rem;
 }
+.img5s{
+    display: block;
+    border-radius:1.5rem 1.5rem 1.5rem 1.5rem;
+    margin-left: 3.2rem;
+}
+.inputradio{
 
-
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    margin:.2rem;
+    gap: 3rem;
+}
+.h2hibe{
+    display: none;
+}
+.svgg{
+    padding-top: 1rem;
+}
