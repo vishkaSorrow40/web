@@ -91,7 +91,7 @@ body {
     
 }
 .buttonstart2 {
-    visibility: hidden;
+    display: none;
     border-radius:9rem;
     font-size: 2rem;
     line-height: 1.5;
@@ -549,23 +549,26 @@ label{
     padding-top: 1rem;
 }
 .hrDeks{
-    visibility: hidden;
+    display:none;
 }
 .hrDeks3{
-    visibility: hidden;
+    display:none;
 }
 .covid{
-    visibility: hidden;
+    display:none;
 
 }
 .Amenu{
-    visibility: hidden;
+    display:none;
 }
 .planet{
-    visibility: hidden;
+    display:none;
 }
 .divfF{
-    visibility: hidden;
+    display:none;
+}
+.comp2{
+    display:none;
 }
 
 
@@ -648,7 +651,7 @@ label{
 /* -------------------------------------1024------------------------------------- */
 @media (min-width:1024px) {
     .hrDeks{
-        visibility: visible;
+       display: flex;
         writing-mode: vertical-rl;
         color: var(--primary-color1);
         width: .1rem;
@@ -657,7 +660,7 @@ label{
         background-color: var(--primary-color1);
     }
     .hrDeks3{
-        visibility: visible;
+        display: flex;
         writing-mode: vertical-rl;
         color: var(--primary-color1);
         width: .1rem;
@@ -667,14 +670,14 @@ label{
         
     }
     .covid{
-        visibility: visible;
+        display: flex;
         font-weight: 600;
         font-size: 1.6rem;
         line-height: 1.875;
         color: var(--primary-color1);
     }
     .cloud {
-        visibility: visible;
+        display: flex;
         text-align: right;
         margin-left:2.8rem;
         margin-right: 2.8rem;
@@ -710,12 +713,12 @@ label{
         visibility: visible;
     }
     .buttonstart {
-        visibility: hidden;
+        display: none;
   
         
     }
     .buttonstart2 {
-        visibility: visible;
+        display: flex;
 
     }
     .cont7{
@@ -958,5 +961,17 @@ label{
     .img5s{
         padding-top: 2rem;
         width: 5rem;
+    }
+    .Amenu{
+        display:flex;
+    }
+    .planet{
+        display:flex;
+    }
+    .divfF{
+        display:flex;
+    }
+    .comp2{
+        display: flex;
     }
 }
