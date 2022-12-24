@@ -32,7 +32,8 @@ body {
     text-align: center;
     padding-bottom: 1px;
     background:var(--primary-color1);
-    width:30.9rem;
+    margin-left: 0;
+    margin-right: 0;
     border:0;
 
 }
@@ -78,6 +79,19 @@ body {
 }
 
 .buttonstart {
+    border-radius:9rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    background: var(--primary-color);
+    color: var(--primary-color1);
+    text-align: center;
+    
+    margin-left: 2.8rem;
+    padding:.6em;
+    
+}
+.buttonstart2 {
+    visibility: hidden;
     border-radius:9rem;
     font-size: 2rem;
     line-height: 1.5;
@@ -149,7 +163,7 @@ body {
 }
 
 .underaccept {
-    
+
     font-size: 4rem;
     line-height: 0.75;
     color: var(--primary-color1); 
@@ -270,6 +284,9 @@ min-height: 15.25rem;
     display: block;
     margin-left: auto;
 }
+.comp2{
+    visibility: hidden;
+}
 .cactus{
     display: block;
     margin-left: auto;
@@ -280,6 +297,13 @@ min-height: 15.25rem;
     line-height: 0.857;
     color: var(--primary-color1);
     text-align: center;
+}
+.T{
+    font-size: 3.5rem;
+    line-height: 0.857;
+    color: var(--primary-color1);
+    text-align: center;
+    margin-bottom: 8rem;
 }
 
 .insection4 {
@@ -388,7 +412,7 @@ min-height: 15.25rem;
 
 .s1{
     margin-right: auto;
-    padding-bottom: 140px;
+    padding-bottom: 100px;
 
 }
 .s2{
@@ -415,14 +439,14 @@ a{
 }
 article{
     text-align: center;
-    position: relative;
-    width: 31.6rem;
-    margin-left: 2.8rem;
+    
+    margin-right: 10rem;
     margin-top: 10rem;
-
+    margin-left: 2.8rem;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
     border-radius: 20px;
+    max-width: 72.1rem;
 }
 
 header{
@@ -524,46 +548,31 @@ label{
 .svgg{
     padding-top: 1rem;
 }
+.hrDeks{
+    visibility: hidden;
+}
+.hrDeks3{
+    visibility: hidden;
+}
+.covid{
+    visibility: hidden;
+
+}
+.Amenu{
+    visibility: hidden;
+}
+.planet{
+    visibility: hidden;
+}
+.divfF{
+    visibility: hidden;
+}
 
 
 /* ============================================================================= */
 /*--------------------------------------4 LABA---------------------------------- */
 
-@media (min-width:320px)
-{
-    /* .section1{
-        width: auto;
-        font-size: 3.5rem;
-    } */
-    .menub{
-        margin-left: auto;
-    }
-    article{
-        width:auto;
-        margin-right: 2.8rem;
-    }
-    .hr2{
-        width:auto;
-    }
-    /* .svg1{
-        min-width: 316px;
-    }
-    .svg2{
-        min-width: 316px;
-    }
-    .svg3{
-        min-width: 316px;
-    } */
-    /* .inpuff{
-        width: auto;
-    }
-    .inputf{
-        min-width: 28rem;
-    }
-    .buttomsend{
-        min-width: 28rem;
-    }
-} */
+
 @media (min-width:425px) {
     .conteiner{
         gap:3.5rem;
@@ -609,15 +618,23 @@ label{
         margin-right: 3.8rem;
     }
     .contT{
+        
         display: flex;
         flex-direction: column;
+        background: rgba(255, 255, 255, 0.15);
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(20px);
+        border-radius: 20px;
+        max-width:50rem ;
+        margin-left: auto;
+        margin-right: auto;
+
     }
-    .img5s{
-        margin-left: 20rem;
-    }
+
     blockquote{
-            margin-left: 22rem;
-            margin-right: 14rem;
+            padding:1rem;
+            margin-left: 0;
+            margin-right: 0;
     }
     .inputf{
         min-width: 45rem;
@@ -630,5 +647,316 @@ label{
 
 /* -------------------------------------1024------------------------------------- */
 @media (min-width:1024px) {
+    .hrDeks{
+        visibility: visible;
+        writing-mode: vertical-rl;
+        color: var(--primary-color1);
+        width: .1rem;
+        height: 3.99rem;
+        border: 0;
+        background-color: var(--primary-color1);
+    }
+    .hrDeks3{
+        visibility: visible;
+        writing-mode: vertical-rl;
+        color: var(--primary-color1);
+        width: .1rem;
+        height: 3.99rem;
+        border: 0;
+        background-color: var(--primary-color1);
+        
+    }
+    .covid{
+        visibility: visible;
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 1.875;
+        color: var(--primary-color1);
+    }
+    .cloud {
+        visibility: visible;
+        text-align: right;
+        margin-left:2.8rem;
+        margin-right: 2.8rem;
+    }
+    .menub{
+        visibility: hidden;
+    }
+    .cont2{
+        display:flex;
+        flex-wrap: nowrap;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(20px);
+        align-items: center; 
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .conthead{
+        display: flex;
+        gap: 1rem;
+        margin-left: 23rem;
+        margin-right: auto;
+
+    }
+    .Amenu{
+        visibility: visible;
+        font-weight: 400;
+        font-size: 2.2rem;
+        line-height: 1.4;
+        color: var(--primary-color1);
+        margin-left: 9.4rem ;
+    }
+    .planet{
+        visibility: visible;
+    }
+    .buttonstart {
+        visibility: hidden;
+  
+        
+    }
+    .buttonstart2 {
+        visibility: visible;
+
+    }
+    .cont7{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .artdiv{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .hr2{
+
+        writing-mode: vertical-rl;
+        width:1px;
+        min-height: 6.8rem;
     
+    }
+    article{
+
+       
+        margin-right: auto;
+        margin-top: 10rem;
+        margin-left: auto;
+        max-width: 72.1rem;
+    }
+    .conteiner{
+        gap:8rem;
+        margin:3.8rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    .sect2Div{
+        margin-left: 2rem ;
+        margin-right: 2rem;
+    }
+    .insection4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .div3{
+        display: flex;
+        flex-wrap: nowrap;
+        gap:1rem;
+        justify-content: center;
+    }
+    .div5s{
+        gap: 1rem;
+    }
+    .img2{
+        margin-left: 15rem;
+    }
+    .img1{
+        margin-right: 15rem;
+    }
+    .inputf{
+        min-width: 60rem;
+    }
+    .buttomsend{
+        min-width:60rem;
+    }
+    .divinta{
+        visibility: hidden;
+    }
+    .divF{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .divA{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .divAAA{
+        display: flex;
+        flex-wrap: nowrap;
+        gap:5rem
+    }
+    .svg3{
+        margin:0;
+    }
+    .svg2{
+        margin:0;
+        
+    }
+    .svg1{
+        margin:0;
+        padding-left: 40rem ;
+    }
+    .divfF{
+        visibility: visible;
+    }
+
+}
+
+/* ------------------------------------1444------------------------------------ */
+@media (min-width:1440px){
+    .menub{
+        display: block;
+    }
+    .cont2{
+        max-width: 1444px;
+    }
+    .conthead{
+        margin-right: 1.4rem;
+        margin-left:67rem;
+    }
+    .section1{
+        font-weight: 700;
+        font-size: 12rem;
+        line-height: 1.5;
+    }
+    .cont4{
+        justify-content: center;
+        }
+    .buttonstart2{
+        font-weight: 400;
+        font-size: 3.5rem;
+        line-height: 1.5;
+    }
+    .conteiner{
+        align-items: stretch;
+        flex-direction: row-reverse;
+        margin-left:30rem ;
+        margin-right:30rem ;
+        gap:5rem;
+    }
+    .section2Dev{
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 30px;
+    }
+    .lineheight{
+    font-size: 1.6rem;
+    line-height: 18px;
+    margin:0;
+    }
+    .sect2Div{
+        min-width: 16.044rem;
+        margin-left: 4rem;
+        margin-right: 4rem ;
+    }
+    .section2h3R{
+        font-size: 1.8rem;
+        line-height: 30px;
+        }
+    .insection2R{
+        font-size: 1.6rem;
+        line-height: 18px;
+    }
+    .section2h3{
+        font-size: 1.8rem;
+        line-height: 30px;
+    }
+    .insection2{
+        font-size: 1.6rem;
+        line-height: 18px;
+    }
+    .divhz{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .divscrol{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .underaccept{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cookies{
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 14px;
+        margin-top: 0;
+    }
+    .section3h2{
+        margin-left: 14rem;
+        margin-bottom: 4rem;
+        font-weight: 400;
+        font-size: 4.5rem;
+        line-height: 24px;
+    }
+    .section3h2R{
+        margin-right: 14rem;
+        margin-bottom: 4rem;
+        font-weight: 400;
+        font-size: 4.5rem;
+        line-height: 24px;
+    }
+    .comp{
+        visibility: hidden;
+    }
+    .comp2{
+        visibility: visible;
+    }
+    .insectoin3{
+        margin-left: 14rem;
+        font-weight: 400;
+        font-size: 2.2rem;
+        line-height: 30px;
+    }
+    .insectoin3R{
+        margin-right: 14rem;
+        font-weight: 400;
+        font-size: 2.2rem;
+        line-height: 30px;
+    }
+    .section4{
+        font-weight: 400;
+        font-size: 6rem;
+        line-height: 30px;
+    }
+    .div3{
+        gap: 7rem;
+        margin-top: 5rem;
+    }
+    .T{
+        font-weight: 400;
+        font-size: 6rem;
+        line-height: 30px;
+    }
+    blockquote{
+
+        font-weight: 400;
+        font-size: 2.2rem;
+        line-height: 26px;
+    }
+    .svg1{
+        margin-right: 0;
+    }
+    .div5s{
+        margin-top: 5rem;
+    }
+    .img5s{
+        padding-top: 2rem;
+        width: 5rem;
+    }
 }
