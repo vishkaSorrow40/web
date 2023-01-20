@@ -411,6 +411,8 @@ min-height: 15.25rem;
 }
 
 .s1{
+    background-image: url(/img/Cloud-transformed.png);
+    background-repeat: no-repeat;
     margin-right: auto;
     padding-bottom: 100px;
 
@@ -426,7 +428,7 @@ min-height: 15.25rem;
     padding-bottom: 172px ;
 }
 .s5{
-    padding-bottom: 154px ;
+    padding-bottom: 15px ;
 }
 
 ul{
@@ -440,7 +442,7 @@ a{
 article{
     text-align: center;
     
-    margin-right: 10rem;
+    margin-right: 2.8rem;
     margin-top: 10rem;
     margin-left: 2.8rem;
     background: rgba(255, 255, 255, 0.1);
@@ -485,7 +487,7 @@ blockquote{
 }
 
 .divinta{
-    margin-top: 150px;
+
     display: flex;
     flex-wrap: nowrap;
     padding-bottom: 2rem;
@@ -570,7 +572,19 @@ label{
 .comp2{
     display:none;
 }
-
+.cloud1{
+    background-image: url(/img/Cloud-transformed.png);
+}
+.cloud3{
+    display: block;
+    margin-left: auto;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    margin-right:0;
+}
+.phone2{
+    display:none;
+}
 /* ============================================================================= */
 /*--------------------------------------4 LABA---------------------------------- */
 
@@ -650,7 +664,7 @@ label{
 /* -------------------------------------1024------------------------------------- */
 @media (min-width:1024px) {
     .hrDeks{
-       display: flex;
+        display: flex;
         writing-mode: vertical-rl;
         color: var(--primary-color1);
         width: .1rem;
@@ -682,7 +696,7 @@ label{
         margin-right: 2.8rem;
     }
     .menub{
-        visibility: hidden;
+        display: none;
     }
     .cont2{
         display:flex;
@@ -815,22 +829,26 @@ label{
 
 }
 
+
 /* ------------------------------------1444------------------------------------ */
+
+
 @media (min-width:1440px){
     .menub{
-        display: block;
+        display: none;
     }
     .cont2{
         max-width: 1444px;
     }
     .conthead{
         margin-right: 1.4rem;
-        margin-left:67rem;
+        margin-left:70rem;
     }
     .section1{
         font-weight: 700;
         font-size: 12rem;
         line-height: 1.5;
+        text-shadow: 0px 12px 10px rgb(0 0 0 / 25%);
     }
     .cont4{
         justify-content: center;
@@ -973,7 +991,54 @@ label{
     .comp2{
         display: flex;
     }
+    .s1{
+        background-size: 1400px;
+    }
+    .comp{
+        display: none;
+    }
+    .divTEXT{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .divforimg3sect{
+        display: flex;
+        flex-direction: row;
+    }
+    .divforimg3sectR{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .insectoin3{
+        margin-right: 0;
+    }
+    .comp2{
+        width:700px;
+    }
+    .cactus{
+        width:700px;
+    }
+    .phone{
+        display:none;
+    }
+    .phone2{
+        display:flex;
+        width: 700px;
+    }
+    .insectoin3R{
+        margin-left:0;
+    }
+    .cloud2{
+        width: 400px;
+    }
+    .cloud3{
+        width: 350px;
+    }
 }
+
+
+
 
 /*--------------------------------------------1920---------------------------*/
 @media (min-width:1920px){
@@ -1003,8 +1068,8 @@ label{
     .conteiner{
         align-items: stretch;
         flex-direction: row-reverse;
-        margin-left:5rem ;
-        margin-right:5rem ;
+        margin-left:50rem ;
+        margin-right:50rem ;
         gap:5rem;
     }
     .section2Dev{
@@ -1133,15 +1198,22 @@ label{
     .comp2{
         display: flex;
     }
-    .wrapper {
+    /* .wrapper {
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    } */
+    .divA{
         max-width: 1170px;
         margin-left: auto;
         margin-right: auto;
         padding-left: 16px;
         padding-right: 16px;
     }
-    .divA{
-        max-width: 1170px;
+    .s1{
+        max-width: 1470px;
         margin-left: auto;
         margin-right: auto;
         padding-left: 16px;
@@ -1157,4 +1229,20 @@ label{
     .conthead{
         margin-left: 183rem;
     }
+
+    .s2{
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .s3{
+        max-width: 1470px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
 }
