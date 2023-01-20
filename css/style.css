@@ -1244,5 +1244,9 @@ label{
         padding-left: 16px;
         padding-right: 16px;
     }
+    .conteiner{
+        margin-left:10rem ;
+        margin-right:10rem ;
+    }
 
 }
