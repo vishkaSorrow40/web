@@ -571,7 +571,6 @@ label{
     display:none;
 }
 
-
 /* ============================================================================= */
 /*--------------------------------------4 LABA---------------------------------- */
 
@@ -973,5 +972,189 @@ label{
     }
     .comp2{
         display: flex;
+    }
+}
+
+/*--------------------------------------------1920---------------------------*/
+@media (min-width:1920px){
+    .menub{
+        display: none;
+    }
+    .cont2{
+        max-width: 1920px;
+    }
+    .conthead{
+        margin-right: auto;
+        margin-left: 119rem;
+    }
+    .section1{
+        font-weight: 700;
+        font-size: 12rem;
+        line-height: 1.5;
+    }
+    .cont4{
+        justify-content: center;
+        }
+    .buttonstart2{
+        font-weight: 400;
+        font-size: 3.5rem;
+        line-height: 1.5;
+    }
+    .conteiner{
+        align-items: stretch;
+        flex-direction: row-reverse;
+        margin-left:5rem ;
+        margin-right:5rem ;
+        gap:5rem;
+    }
+    .section2Dev{
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 30px;
+    }
+    .lineheight{
+    font-size: 1.6rem;
+    line-height: 18px;
+    margin:0;
+    }
+    .sect2Div{
+        min-width: 16.044rem;
+        margin-left: 4rem;
+        margin-right: 4rem ;
+    }
+    .section2h3R{
+        font-size: 1.8rem;
+        line-height: 30px;
+        }
+    .insection2R{
+        font-size: 1.6rem;
+        line-height: 18px;
+    }
+    .section2h3{
+        font-size: 1.8rem;
+        line-height: 30px;
+    }
+    .insection2{
+        font-size: 1.6rem;
+        line-height: 18px;
+    }
+    .divhz{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .divscrol{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .underaccept{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cookies{
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 14px;
+        margin-top: 0;
+    }
+    .section3h2{
+        margin-left: 14rem;
+        margin-bottom: 4rem;
+        font-weight: 400;
+        font-size: 4.5rem;
+        line-height: 24px;
+    }
+    .section3h2R{
+        margin-right: 14rem;
+        margin-bottom: 4rem;
+        font-weight: 400;
+        font-size: 4.5rem;
+        line-height: 24px;
+    }
+    .comp{
+        visibility: hidden;
+    }
+    .comp2{
+        visibility: visible;
+    }
+    .insectoin3{
+        margin-left: 14rem;
+        font-weight: 400;
+        font-size: 2.2rem;
+        line-height: 30px;
+    }
+    .insectoin3R{
+        margin-right: 14rem;
+        font-weight: 400;
+        font-size: 2.2rem;
+        line-height: 30px;
+    }
+    .section4{
+        font-weight: 400;
+        font-size: 6rem;
+        line-height: 30px;
+    }
+    .div3{
+        gap: 7rem;
+        margin-top: 5rem;
+    }
+    .T{
+        font-weight: 400;
+        font-size: 6rem;
+        line-height: 30px;
+    }
+    blockquote{
+
+        font-weight: 400;
+        font-size: 2.2rem;
+        line-height: 26px;
+    }
+    .svg1{
+        margin-right: 0;
+    }
+    .div5s{
+        margin-top: 5rem;
+    }
+    .img5s{
+        padding-top: 2rem;
+        width: 5rem;
+    }
+    .Amenu{
+        display:flex;
+    }
+    .planet{
+        display:flex;
+    }
+    .divfF{
+        display:flex;
+    }
+    .comp2{
+        display: flex;
+    }
+    .wrapper {
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .divA{
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+/*-------------------------------2560---------------------------------*/
+@media (min-width:2560px) {
+    .cont2{
+        max-width: 2560px;
+    }
+    .conthead{
+        margin-left: 183rem;
     }
 }
