@@ -585,6 +585,9 @@ label{
 .phone2{
     display:none;
 }
+.headerfrm{
+    padding-bottom: 4rem;
+}
 /* ============================================================================= */
 /*--------------------------------------4 LABA---------------------------------- */
 
@@ -1249,4 +1252,30 @@ label{
         margin-right:10rem ;
     }
 
+}
+
+/* -----------------------------------------FORM--------------------------------- */
+.classtxt{
+
+}
+.inptr{
+    
+    border-width: 0;
+    border-radius: 9rem;
+    padding: 0;
+    text-align: left, 3.3rem;  
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right:auto;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    line-height: 4.7rem;
+    min-width:28rem;
+}
+.pform{
+    font-size: 2rem;
+    line-height: 1.5;
+    color: var(--primary-color1);
+    margin-top: 0;
+    margin-bottom: 0;
 }
