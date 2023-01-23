@@ -7,6 +7,12 @@
     font-weight: 400;
     margin-left: auto;
 }
+html, body { height: 100%;}
+
+body > footer {
+    position: sticky;
+    top: 100vh;
+}
 
 body {
     margin-left: auto;
@@ -1288,6 +1294,40 @@ legend{
         padding-left: 16px;
         padding-right: 16px;
     }
+
+    .inptr{
+        font-size: 2.25rem;
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        line-height: 8.55rem;
+        min-width:42rem;
+    }
+    .pform{
+        font-size: 3rem;
+    }
+    fieldset{
+        max-width: 480px;
+    }
+    legend{
+        font-size: 4.5rem;
+    }
+    .gender{
+        font-size: 3rem;
+
+    }
+    .divgender{
+        gap: 3.9rem;
+        line-height: .2rem;
+    }
+    .formbuts{
+        font-size: 3.9rem;
+        line-height: 9.4rem;
+        min-width: 21rem;
+    }
+    .divbuts{
+        gap: 7.5rem;
+        padding: 3rem;
+    }
+
 }
 
 /*-------------------------------2560---------------------------------*/
