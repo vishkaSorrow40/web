@@ -39,14 +39,16 @@
                     <input  class="inptr" type="date" placeholder="yy.mm.dd" name="date" required>
                 </label>
                 <p class="pform">Gender :</p>
-                <label>
-                    <p>Male
-                    <input class="inptr" type="radio" name="radio1" value="M" checked> </p>
-                </label>
-                <label>
-                    <p>Female 
-                    <input class="inptr" type="radio" name="radio2" value="F" checked></p>
-                </label>
+                <label> <div class="divgender">
+                    <p class="gender">Male</p>
+                    <input type="radio" name="radio1" value="M" checked> 
+                </div></label>
+
+
+                <label><div class="divgender">
+                    <p class="gender">Female</p>
+                    <input type="radio" name="radio2" value="F" checked>
+                </div></label>
                 <label>
                     <p class="pform">Password :</p>
                     <input class="inptr" type="password" name="password" minlength="6" placeholder="Create password" checked>
@@ -67,8 +69,9 @@
                     <input class="inptr" type="text" name="time" placeholder="morning, afternoon, evening, night" >
                 </label>
             </fieldset>
-            <input type="submit" value="Send">
-            <input type="reset" value="Reset">
+            
+            <div class="divbuts"><input class="formbuts" type="submit" value="Send">
+            <input class="formbuts" type="reset" value="Reset"></div>
         </form>
 
     </main>

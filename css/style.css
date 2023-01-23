@@ -588,6 +588,71 @@ label{
 .headerfrm{
     padding-bottom: 4rem;
 }
+
+/* -----------------------------------------FORM--------------------------------- */
+
+.inptr{
+    
+    border-width: 0;
+    border-radius: 9rem;
+    padding: 0;
+    font-size: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right:auto;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    line-height: 4.7rem;
+    min-width:28rem;
+}
+.pform{
+    font-size: 2rem;
+    line-height: 1.5;
+    color: var(--primary-color1);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+fieldset{
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: var(--primary-color1);
+}
+legend{
+    font-size: 3rem;
+    color: var(--primary-color1);
+}
+.gender{
+    font-size: 2rem;
+    color: var(--primary-color1);
+}
+.divgender{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 3rem;
+    line-height: .1rem;
+}
+.formbuts{
+    font-size: 2.6rem;
+    line-height: 4.7rem;
+    background-color: var(--primary-color);
+    color: var(--primary-color1);
+    border-radius: 9rem;
+    text-align: center;
+    min-width:14rem;
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
+}
+.divbuts{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    padding: 2rem;
+}
 /* ============================================================================= */
 /*--------------------------------------4 LABA---------------------------------- */
 
@@ -841,7 +906,7 @@ label{
         display: none;
     }
     .cont2{
-        max-width: 1444px;
+        max-width: 1500px;
     }
     .conthead{
         margin-right: 1.4rem;
@@ -1118,6 +1183,7 @@ label{
         align-items: center;
     }
     .underaccept{
+        font-size: 6rem;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1227,7 +1293,7 @@ label{
 /*-------------------------------2560---------------------------------*/
 @media (min-width:2560px) {
     .cont2{
-        max-width: 2560px;
+        max-width: 2612px;
     }
     .conthead{
         margin-left: 183rem;
@@ -1252,30 +1318,39 @@ label{
         margin-right:10rem ;
     }
 
+
+    .inptr{
+        font-size: 3rem;
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        line-height: 9.4rem;
+        min-width:56rem;
+    }
+    .pform{
+        font-size: 4rem;
+    }
+    fieldset{
+        max-width: 640px;
+    }
+    legend{
+        font-size: 6rem;
+    }
+    .gender{
+        font-size: 4rem;
+
+    }
+    .divgender{
+        gap: 6rem;
+        line-height: .2rem;
+    }
+    .formbuts{
+        font-size: 5.2rem;
+        line-height: 9.4rem;
+        min-width: 28rem;
+    }
+    .divbuts{
+        gap: 10rem;
+        padding: 4rem;
+    }
+
 }
 
-/* -----------------------------------------FORM--------------------------------- */
-.classtxt{
-
-}
-.inptr{
-    
-    border-width: 0;
-    border-radius: 9rem;
-    padding: 0;
-    text-align: left, 3.3rem;  
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    margin-left: auto;
-    margin-right:auto;
-    padding-left: 1.4rem;
-    padding-right: 1.4rem;
-    line-height: 4.7rem;
-    min-width:28rem;
-}
-.pform{
-    font-size: 2rem;
-    line-height: 1.5;
-    color: var(--primary-color1);
-    margin-top: 0;
-    margin-bottom: 0;
-}
