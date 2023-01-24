@@ -780,6 +780,7 @@ legend{
         align-items: center; 
         padding-top: 0;
         padding-bottom: 0;
+        justify-content: space-between;
     }
     .conthead{
         display: flex;
@@ -912,7 +913,7 @@ legend{
         display: none;
     }
     .cont2{
-        max-width: 1500px;
+        max-width: 1920px;
     }
     .conthead{
         margin-right: 1.4rem;
@@ -1122,10 +1123,7 @@ legend{
     .cont2{
         max-width: 2560px;
     }
-    .conthead{
-        margin-right: auto;
-        margin-left: 119rem;
-    }
+
     .section1{
         font-weight: 700;
         font-size: 12rem;
