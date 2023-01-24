@@ -659,6 +659,29 @@ legend{
     gap: 5rem;
     padding: 2rem;
 }
+.formbuts:hover{
+    min-width: 16rem;
+    font-size: 1.8rem;
+    transition-duration: .7s;
+}
+.inptr:hover{
+    font-size: 1.8rem;
+    transition-duration: .5s;
+}
+input:focus{
+    background-color: darkgrey;
+}
+a:visited{
+    color:grey;
+}
+p::selection{
+    background-color: var(--primary-color);
+    
+}
+legend::selection{
+    color:var(--primary-color2);
+    background-color: #000;
+}
 /* ============================================================================= */
 /*--------------------------------------4 LABA---------------------------------- */
 
