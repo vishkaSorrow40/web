@@ -138,6 +138,21 @@ fieldset{
     border-color: var(--primary-color);
     margin-bottom: 4rem;
 }
+.buttonstart {
+    display: block;
+    border-radius:9rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    background: var(--primary-color);
+    color: var(--primary-color1);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding:.6em;
+    margin-bottom: 4rem;
+    max-width: 320px;
+    
+}
 
 @media (min-width:1440px){
     .a1440{
