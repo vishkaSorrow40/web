@@ -73,9 +73,10 @@ for(i=0; i<=9; i++){
         hesh+='##';
         console.log(hesh);
     };
+    // console.log('\n')
 };
-console.log('| |')
-*/
+console.log('| |');*/
+
 
 /* -----------------------------------fifth---------------------------------------*/
 
@@ -104,4 +105,43 @@ while(p){
     };
 }
 */
+
+
 /* -----------------------------------sixth---------------------------------------*/
+
+/*let chislo, x,y;
+chislo = prompt("Введите число, которое хотите проверить на делимость");
+x=prompt('x');
+y=prompt('y');
+if (chislo%x == 0 && chislo%y==0){
+    console.log("n = " + chislo + ", x ="+ x +", y =" + y + " = > " + " true" );
+}
+else{
+    console.log("n = " + chislo + ", x =" + x + ", y = " + y + " = > "+" false");
+};*/
+
+/* -----------------------------------seventh---------------------------------------*/
+
+let month;
+month= prompt("Введите номер месяца");
+if (month>0 && month<4){
+    console.log("месяц "+ month +" => 1 квартал");
+}
+else{
+    if( month>3 && month<7){
+        console.log("месяц "+ month +" => 2 квартал");
+    }
+    else{
+        if( month>6 && month<10){
+            console.log("месяц "+ month +" => 3 квартал");
+        }
+        else{
+            if( month>9 && month<13){
+                console.log("месяц "+ month +" => 4 квартал");
+            }
+            else{
+                console.log("error");
+            };
+        };
+    };
+};
