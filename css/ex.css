@@ -153,6 +153,11 @@ fieldset{
     max-width: 320px;
     
 }
+@media (max-width:1024px){
+    .people{
+        width:100%
+    }
+}
 
 @media (min-width:1440px){
     .a1440{
@@ -222,7 +227,7 @@ fieldset{
         text-align: left;
     }
     .people{
-        display: none;
+        width:60%;
     }
     .people2{
         display: flex;
