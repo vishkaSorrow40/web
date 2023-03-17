@@ -1,7 +1,7 @@
 /*-----------------------------------------1--------------------------------------------------*/ 
 
 
-/*function converSpeed(sms, number){
+function converSpeed(sms, number){
     if (number=='toms') {
         let n=`${sms / 3.6} м/с`;
         return(n);
@@ -18,11 +18,11 @@
 let sms;
 let number = prompt('Если вы хотите превести км/ч в м/с введите toms , если наоборот tokmh');
 sms = prompt("Введите значение скорости :");
-console.log(converSpeed(sms, number));*/
+console.log(converSpeed(sms, number));
 
 
 /*-------------------------------------------2-------------------------------------------------*/
-/*function abs(number){
+function abs(number){
     if(number<=0){
         return(-number);
     }
@@ -34,11 +34,11 @@ console.log(converSpeed(sms, number));*/
 
 let number;
 number=prompt("Введите любое число:");
-console.log(abs(number));*/
+console.log(abs(number));
 
 /*-------------------------------------------3-------------------------------------------------*/
 
-/*let student={
+let student={
     group: 211326,
     firstName: 'Виктория',
     lastName: 'Чернышова '
@@ -46,7 +46,7 @@ console.log(abs(number));*/
 
 const keys=Object.keys(student);
 console.log('Список свойств объекта:'+keys);
-console.log('Студент '+ student.lastName + student.firstName +" учится в группе "+ student.group);*/
+console.log('Студент '+ student.lastName + student.firstName +" учится в группе "+ student.group);
 
 /*-------------------------------------------4-------------------------------------------------*/
 
