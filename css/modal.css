@@ -1,0 +1,105 @@
+:root {
+    font-size: 62.5%;
+    --primary-color: #18216d;
+    --primary-color1: #fff;
+    --primary-color2:#00ECD0; 
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.inptr{
+    margin-left: 1.5rem;
+    border-width: 0;
+    border-radius: 9rem;
+    padding: 0;
+    font-size: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right:auto;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    line-height: 4.7rem;
+    min-width:27rem;
+}
+.pform{
+    font-size: 2rem;
+    line-height: 1.5;
+    color: var(--primary-color1);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.modal{
+    position: fixed;
+    left: 0;
+    top:0;
+    visibility: hidden;
+    opacity: 0;
+    width:100%;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, .7);
+
+
+    z-index: 0;
+}
+/* .modal.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+   
+} */
+.modal-window{
+    position: relative;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: auto;
+
+    padding: 2rem;
+    max-width: 30rem;
+    background-color:  #678ff2;
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+    box-shadow: 0px 0px 61px 15px rgba(0, 0, 0, 0.63);
+
+}
+.formbuts{
+    font-size: 2.6rem;
+    line-height: 4.7rem;
+    background-color: var(--primary-color);
+    color: var(--primary-color1);
+    border-radius: 9rem;
+    text-align: center;
+    max-width:30rem;
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
+}
+.divbuts{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.h2modal{
+    color:var(--primary-color1);
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.h44{
+    color: var(--primary-color1);
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    line-height: 1;
+}

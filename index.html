@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/ex.css">
-    <script src="lr2.js"></script>
+    <link rel="stylesheet" href="./css/modal.css">
+
+   
     <title>Чернышова Вика 211-326 25_01_2023</title>
 </head>
 <body class="wrapper">
@@ -29,7 +31,35 @@
         <section>
             <div class="div6"><div class="div5"><h2 class="h21">The best video online meeting softwear.</h2>
             <h3 class="h31">Many desktop publishing packages and web page editors now use Lorem ipsum as their default </h3>
-            <a class="a1" href="#"> Start for free</a>
+            <button class="a1" name="login" id="btnmodal"> Start for free</button>
+
+
+            <div class="modal" id="mymodal">
+                <div class="modal-window">
+                    <form method="post" name="formM" id="formMDL">
+                    <label>
+                        <h2 class="h2modal">Log in</h2>
+                        <p class="pform">Password :</p>
+                        <input class="inptr" type="password" id="pass" name="password" minlength="6" placeholder="Create password" required>
+                    </label>
+                    <p class="h44" id="error1"></p>
+
+                    <label>
+                        <p class="pform">E-mail : </p>
+                        <input class="inptr" type="email" name="email" id="maiL" placeholder="vvvv@email.com" required>
+                        
+                    </label>
+                    <p class="h44" id="error2"></p>
+                    <div class="divbuts">
+                            <button class="formbuts" id='check' name="passCheck"> Check password</button>
+                            <input class="formbuts" type="submit" id="sendFrm" value="Send">
+                        </div></form>
+                    </div>
+                
+            </div>
+            
+
+            
             <img class="people" src="/svg/Group 1457.svg" alt="people">
         </section>
 
@@ -40,7 +70,7 @@
             <h4>A dictionary of over 200 Latin words, with a handful of model sentence, structures to generate Lorem, ipsum.</h4></div></div>
         </section>
         <p ><a href="mate.html" class="buttonstart" name="start">Start development with us!</a></p>
-
+        <script src="lr3.js"defer></script>
     </main>
 
 
