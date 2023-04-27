@@ -24,7 +24,7 @@ email.addEventListener("blur", (event)=> {
         email.style.borderColor="#ff5545";
     } else{
         errMail.innerText="";
-        email.setCustomValidity(" ");
+        email.setCustomValidity("");
         email.style.borderColor=("#000");
 
     }
@@ -37,7 +37,7 @@ passWord.addEventListener("blur", (event)=>{
         passWord.style.borderColor="#ff5545";
     } else{
         errPass.innerText="";
-        passWord.setCustomValidity(" ");
+        passWord.setCustomValidity("");
         passWord.style.borderColor=("#000");
     }
 });
@@ -84,7 +84,37 @@ const closeMDL = event =>{
 btn.addEventListener('click', openMDL);
 mdl.addEventListener('click', closeMDL);
 
+function FrmSubmit(event) {
+    // Просим форму не отправлять данные самостоятельно
+    event.preventDefault();
+    console.log('Отправка!');
 
+    // const passw=mdlForm.querySelector('[name="password"]'),
+    //     imail=mdlForm.querySelector('[name="email"]');
+
+    // const values={
+    //     passwor: passw.value,
+    //     imal: imail.value
+    // };
+
+    let formData= new FormData(mdlForm);
+    const values= Object.fromEntries(formData.entries());
+
+    for(const i in values){
+        console.log(values[i]);
+    }
+    mdl.style.opacity = 0;
+
+        setTimeout(()=>{
+            mdl.style.visibility = 'hidden';
+        }, 400)
+
+    
+};
+
+
+// mdlForm.addEventListener('submit', FrmSubmit);
+mdlForm.addEventListener('submit', ()=>{console.log("test");});
 
 
 // email.addEventListener("focus", (event) => {
@@ -119,30 +149,7 @@ mdl.addEventListener('click', closeMDL);
 // };
 
 
-function FrmSubmit(event) {
-    // Просим форму не отправлять данные самостоятельно
-    event.preventDefault();
-    console.log('Отправка!');
 
-    // const passw=mdlForm.querySelector('[name="password"]'),
-    //     imail=mdlForm.querySelector('[name="email"]');
-
-    // const values={
-    //     passwor: passw.value,
-    //     imal: imail.value
-    // };
-
-    let formData= new FormData(mdlForm);
-    const values= Object.fromEntries(formData.entries());
-
-    for(const i in values){
-        console.log(values[i]);
-    }
-    
-};
-
-
-mdlForm.addEventListener('submit', FrmSubmit);
 // mdlForm.addEventListener('submit', serializeForm);
 
 // document.querySelector('#sendFrm').onclick=()=>{

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normolize.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
+    <style>
+    body {
+        margin: 0;
+        font-family: sans-serif;
+      }
+      .threejs {
+        position: relative;
+        top:2rem;
+        margin-right: auto;
+        margin-left: auto;
+        width: 40%;
+        aspect-ratio: 1;
+        height: 400px;
+      }
+      form {
+        position: relative;
+        top: 40px;
+        width: 60%;
+        margin: auto 0;
+        text-align: center;
+      }</style>
+    <title>Treejs</title>
+</head>
+<body>
+  <div class="threejs"></div>
+  <form>
+    <label
+      ><input type="radio" value="#45457F" name="color" checked />Графит</label>
+    <label><input type="radio" value="#40e601" name="color" />Салатовый</label>
+    <label><input type="radio" value="#ab5c78" name="color" />Розовый</label>
+    <label><input type="radio" value="#111eee" name="color" />Синий</label>
+  </form>
+  <form>
+    <label><input type="checkbox" id="hemi" checked />Свет сцены</label>
+    <label><input type="checkbox" id="direct" checked />Параллельный свет</label>
+    <label><input type="checkbox" id="point" checked />Софит</label>
+  </form>
+  <script type="module" src="three.js"></script>
+  <script type="module" src="model1.js"></script>
+</body>
+</html>
